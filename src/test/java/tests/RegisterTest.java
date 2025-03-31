@@ -13,11 +13,9 @@ public class RegisterTest extends BaseTests {
 	private RegisterPage registerPage;
 	@Test
 	public void validRegisterTC() {
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
+		
 		homePage = new HomePage(driver);
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 		registerPage = homePage.clickOnRegisterBottun();
-		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 		registerPage.ChooseGender();
 		registerPage.EnterFristName("Ahmed");
 		registerPage.EnterLastName("Salem");

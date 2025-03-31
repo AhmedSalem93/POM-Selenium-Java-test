@@ -10,7 +10,6 @@ public class RegisterPage extends BasePages {
 
 	public RegisterPage(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 private By genderMale = By.id("gender-male");
 private WebElement genderMaleElement;
